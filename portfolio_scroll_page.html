@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Rhinichthys</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfaf3; /* cream */
+      color: #3e3e3e;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #d4af37; /* gold */
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background-color: #f7f3e9;
+      text-align: center;
+      padding: 0.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #b58b00;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      color: #b58b00;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #d4af37;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>@rhinichthys</h1>
+    <p>Art • Fish • Nature</p>
+  </header>
+
+  <nav>
+    <a href="#whatido">What I Do</a>
+    <a href="#art">Art</a>
+    <a href="#fish">Fish Photography</a>
+    <a href="#insects">Insect Photography</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="whatido">
+    <h2>What I Do</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      I explore nature through art, photography, and study — from fish darting beneath the surface to the intricate forms of moths and beetles. My Instagram <a href="https://www.instagram.com/rhinichthys" target="_blank">@rhinichthys</a> features my latest work and discoveries.
+    </p>
+  </section>
+
+  <section id="art">
+    <h2>Art</h2>
+    <div class="gallery">
+      <!-- Add your art images here -->
+      <img src="images/art1.jpg" alt="Artwork sample">
+      <img src="images/art2.jpg" alt="Artwork sample">
+    </div>
+  </section>
+
+  <section id="fish">
+    <h2>Fish Photography</h2>
+    <div class="gallery">
+      <!-- Add your fish photos here -->
+      <img src="images/fish1.jpg" alt="Fish photo">
+      <img src="images/fish2.jpg" alt="Fish photo">
+    </div>
+  </section>
+
+  <section id="insects">
+    <h2>Insect Photography</h2>
+    <div class="gallery">
+      <!-- Add your insect photos here -->
+      <img src="images/insect1.jpg" alt="Insect photo">
+      <img src="images/insect2.jpg" alt="Insect photo">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p style="text-align:center;">
+      Email: <a href="mailto:yourname@email.com">yourname@email.com</a><br>
+      Instagram: <a href="https://www.instagram.com/rhinichthys" target="_blank">@rhinichthys</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Rhinichthys | Designed with simplicity</p>
+  </footer>
+</body>
+</html>
