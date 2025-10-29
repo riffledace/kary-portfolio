@@ -11,6 +11,21 @@ a quick portfolio showing off my art and nature photography
       <em>Enneacanthus chaetodon - Blackbanded Sunfish</em>
   </div>
 </section>
+
+<section id="fish">
+<h2>Fish Photography</h2>
+<div class="gallery">
+<figure>
+<img src="images/DSCN5563.JPG" alt="Miniellus procne - Swallowtail Shiner">
+<figcaption>Miniellus procne - Swallowtail Shiner</figcaption>
+</figure>
+<figure>
+<img src="images/chaetodton1531.JPG" alt="Enneacanthus chaetodon - Blackbanded Sunfish">
+<figcaption>Enneacanthus chaetodon - Blackbanded Sunfish</figcaption>
+</figure>
+</div>
+</section>
+
 <section id="insects">
   <h2>Insects</h2>
   <div class="gallery">
