@@ -1,7 +1,7 @@
 # kary-portfolio
 a quick portfolio showing off my art and nature photography
 
-<section id="art">
+<section id="Fishes">
   <h2>Art</h2>
   <div class="gallery">
     <!-- Add your art images here -->
