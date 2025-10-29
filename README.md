@@ -1,6 +1,7 @@
 # kary-portfolio
 a quick portfolio showing off my art and nature photography
-.gallery-grid {
+
+gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -94,7 +95,7 @@ a quick portfolio showing off my art and nature photography
   </div>
 </section>
 
-<script>
+</script>
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
 
