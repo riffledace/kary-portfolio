@@ -5,12 +5,8 @@ a quick portfolio showing off my art and nature photography
   <h2>Fishes</h2>
   <div class="gallery">
     <!-- Add your art images here -->
-    <img src="images/DSCN5563.JPG" width="400" height="800" alt="Miniellus procne - Swallowtail Shiner">
-      |:--:| 
-      <em>Miniellus procne - Swallowtail Shiner</em>
-    <img src="images/chaetodton1531.JPG" width="400" height="800" alt="Enneacanthus chaetodon - Blackbanded Sunfish">
-      |:--:| 
-      <em>Enneacanthus chaetodon - Blackbanded Sunfish</em>
+    |![]("images/DSCN5563.JPG")<br>"Miniellus procne - Swallowtail Shiner"|![]("images/chaetodton1531.JPG")<br>"Enneacanthus chaetodon - Blackbanded Sunfish"|
+|:-:|:-:|
   </div>
 </section>
 <section id="insects">
