@@ -6,5 +6,6 @@ a quick portfolio showing off my art and nature photography
   <div class="gallery">
     <!-- Add your art images here -->
     <img src="images/DSCN5563.JPG" alt="Miniellus procne - Swallowtail Shiner">
+    <img src="images/chaetodton1531.JPG" alt="Enneacanthus chaetodon - Blackbanded Sunfish">
   </div>
 </section>
