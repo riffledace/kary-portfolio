@@ -1,54 +1,7 @@
 # kary-portfolio
 a quick portfolio showing off my art and nature photography
 
-gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  margin-top: 20px;
-}
 
-.gallery-grid figure {
-  margin: 0;
-  text-align: center;
-}
-
-.gallery-grid img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-
-.gallery-grid img:hover {
-  transform: scale(1.05);
-}
-
-.gallery-grid figcaption {
-  margin-top: 8px;
-  font-size: 0.9rem;
-  color: #555;
-}
-
-/* Lightbox styles */
-.lightbox {
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.lightbox img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 10px;
-}
 <section id="Fishes">
   <h2>Fishes</h2>
   <div class="gallery">
@@ -95,18 +48,3 @@ gallery-grid {
   </div>
 </section>
 
-</script>
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-
-  document.querySelectorAll('.gallery-grid img').forEach(img => {
-    img.addEventListener('click', () => {
-      lightboxImg.src = img.src;
-      lightbox.style.display = 'flex';
-    });
-  });
-
-  lightbox.addEventListener('click', () => {
-    lightbox.style.display = 'none';
-  });
-</script>
