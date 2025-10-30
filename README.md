@@ -1,9 +1,11 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kary Portfolio</title>
+ <header style="background: url('images/blueridge3434.jpg') center/cover no-repeat; color:white; text-align:center; padding:4em 1em;">
+  <h1>Kary’s Portfolio</h1>
+  <p>Art • Fish • Insects • Nature</p>
+</header>
 
   <style>
     body {
@@ -113,14 +115,14 @@
 </head>
 <body>
   <header>
-    <h1>Kary’s Portfolio</h1>
+    <h1>Roger’s Portfolio</h1>
     <p>Art • Fish • Insects • Nature</p>
     <p>Instagram: <a href="https://www.instagram.com/rhinichthys" target="_blank">@rhinichthys</a></p>
   </header>
 
   <!-- FISH SECTION -->
   <section id="fish">
-    <h2>Fish Photography</h2>
+    <h2>Fish & Aquatics</h2>
     <div class="gallery-grid">
       <figure>
         <img src="images/DSCN5563.JPG" alt="Miniellus procne - Swallowtail Shiner">
@@ -129,6 +131,10 @@
       <figure>
         <img src="images/chaetodton1531.JPG" alt="Enneacanthus chaetodon - Blackbanded Sunfish">
         <figcaption>Enneacanthus chaetodon – Blackbanded Sunfish</figcaption>
+      </figure>
+      <figure>
+       <img src="images/platanthera2902.JPG" alt="Platanthera peramoena">
+       <figcaption>Platanthera peramoena, S1 in MD</figcaption>
       </figure>
     </div>
   </section>
@@ -169,7 +175,7 @@
   </div>
 
   <footer>
-    <p>© 2025 Kary — All photos and artwork by me</p>
+    <p>© 2025 Roger An — All photos and artwork by me</p>
   </footer>
 
   <script>
